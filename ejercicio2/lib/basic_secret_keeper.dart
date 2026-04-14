@@ -3,7 +3,7 @@ import 'secret_keeper.dart';
 
 class BasicSecretKeeper implements SecretKeeper {
   @override
-  final String secretWord = "ESMERALDA";
+  final String secretWord = "GUITARRA";
   final GenerativeModel _model;
 
   BasicSecretKeeper(String apiKey)
